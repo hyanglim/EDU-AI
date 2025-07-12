@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f8f9;
+    color: #333;
+}
+
+.container {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #e0e7ef;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.3em;
+    color: #1a5276;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    color: #5d6d7e;
+}
+
+h2, h3 {
+    color: #2874a6;
+    border-left: 5px solid #5dade2;
+    padding-left: 15px;
+}
+
+h2 { font-size: 1.7em; margin-top: 40px; }
+h3 { font-size: 1.4em; margin-top: 30px; }
+
+ul {
+    background-color: #fcfde3;
+    border: 1px solid #f0e68c;
+    border-radius: 8px;
+    padding: 20px 20px 20px 40px;
+}
+
+.interactive-steps section {
+    background-color: #f8f9f9;
+    border: 1px solid #d5dbdb;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.code-block {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-family: 'D2Coding', monospace;
+    white-space: pre-wrap;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+.output-area {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eaf2f8;
+    border-left: 5px solid #3498db;
+    border-radius: 0 8px 8px 0;
+}
+
+.output-area h4 {
+    margin-top: 0;
+    color: #1f618d;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e7ef;
+    font-style: italic;
+    color: #839192;
+}
